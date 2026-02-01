@@ -149,6 +149,40 @@ footer {
   border-top: 1px dashed #eee;
 }
 
+.participants-list {
+  list-style: none;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  margin: 4px 0;
+}
+
+.participant-item span {
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 10px;
+  min-width: 32px;
+  height: 32px;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
 .participants-section h5 {
   margin: 6px 0;
   font-size: 14px;
